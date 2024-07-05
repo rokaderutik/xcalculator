@@ -5,6 +5,10 @@
     justify-content: center;
 }
 
+.calculator_wrapper input {
+    width: 185px;
+}
+
 .button_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
