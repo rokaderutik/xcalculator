@@ -1,0 +1,22 @@
+.calculator_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.button_grid button {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 24px;
+    cursor: pointer;
+}
